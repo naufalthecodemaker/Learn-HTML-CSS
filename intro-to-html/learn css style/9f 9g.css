@@ -1,0 +1,84 @@
+.friend-request-grid {
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap: 5px;
+  align-items: center;
+}
+
+.friend-request {
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.404);
+  padding-bottom: 10px;
+  width:160px;
+}
+
+.main-picture {
+  width: 160px;
+  height: 160px;
+}
+
+.account-picture {
+  width: 100%;
+  height:100%;
+  object-fit: cover;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Arial;
+  padding-left: 5px;
+}
+
+.person {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.picture-amount {
+  width: 170px;
+  margin-left: 6px;
+  margin-bottom: 7px;
+  display: grid;
+  grid-template-columns: 25px 1fr;
+}
+
+.profile-picture {
+  width:25px;
+  height: 25px;
+  border-radius: 100px;
+}
+
+.amount {
+  font-size: 12px;
+  color: rgb(71, 71, 71);
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+button {
+  background-color: rgb(2, 120, 255);
+  color: white;
+  border: solid;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  margin-left: 5px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  background-color: white;
+  color: rgb(0, 102, 255);
+}

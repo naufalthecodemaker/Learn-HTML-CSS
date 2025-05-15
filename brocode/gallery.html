@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      .gallery{
+        display: flex;
+        margin-top: 10px;
+      }
+      .container{
+        width: 180px;
+        height: 220px;
+        margin-left: 10px;
+        border: 1px solid gray;
+        background-color: lightcyan;
+        cursor: pointer;
+      }
+      .container:hover{
+        border: 2px solid black;
+      }
+      .container img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+      }
+      .caption{
+        height: 25px;
+        text-align: center;
+        margin-top: 7px;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="gallery">
+      <a target="_blank" href="image/kucing.png">
+        <div class="container">
+          <img src="image/kucing.png">
+          <div class="caption">
+            Imut
+          </div>
+        </div>
+      </a>
+    
+      <a target="_blank" href="image/profil 1.webp">
+        <div class="container">
+          <img src="image/profil 1.webp">
+          <div class="caption">
+            Anggora
+          </div>
+        </div>
+      </a>
+      
+      <a target="_blank" href="image/profil 2.jpg">
+        <div class="container">
+          <img src="image/profil 2.jpg">
+          <div class="caption">
+            Gembul
+          </div>
+        </div>
+      </a>
+    </div>
+  </body>
+</html>

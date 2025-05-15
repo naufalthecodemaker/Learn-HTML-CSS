@@ -1,0 +1,51 @@
+.bar {
+  width:365px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.409);
+  padding-bottom: 9px;
+  border-radius: 5px;
+}
+
+.picture {
+  width: 40px;
+  height:40px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.write-bar {
+  vertical-align: middle;
+  border-style: none;
+  width: 220px;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.tweet-button {
+  vertical-align: middle;
+  font-family: Arial;
+  margin-top: 10px;
+  background-color: rgb(46, 158, 250);
+  color: white;
+  border:rgb(46, 158, 250);
+  border-style: solid;
+  border-radius: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.tweet-button:hover {
+  opacity: 0.7;
+}
+
+.tweet-button:active {
+  background-color: white;
+  color:rgb(46, 158, 250);
+}

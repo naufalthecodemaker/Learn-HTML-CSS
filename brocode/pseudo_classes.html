@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoClasses</title>
+    <style>
+      a:link{ /*link adalah pseudoclass*/
+        color: hsl(221, 100%, 74%);
+      }
+
+      a:hover{ /* hover juga pseudoclass*/
+        color: hsl(221, 100%, 86%);
+        font-size: 1.1em;
+      }
+
+      a:active{ /* active adalah pseudoclass*/
+        color: hsl(240,100%,58%);
+        font-size: 1.1em;
+      }
+
+      a:visited{ /*visited jg pseudoclass*/
+        color: gray;
+      }
+
+      .first:hover{
+        background-color: yellow;
+        cursor: pointer;
+      }
+
+      .first:not(:hover){ /*bagian yg ga ke hover, jdi abu2*/
+        background-color: rgb(212, 212, 212);
+      }
+
+      .second:nth-child(3n+1)
+      {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <a href="www.gooogle.com">Google</a>
+    <ul>
+      <li class="first">This is #1</li>
+      <li class="first">This is #2</li>
+      <li class="first">This is #3</li>
+      <li class="first">This is #4</li>
+      <li class="first">This is #5</li>
+      <li class="first">This is #6</li>
+      <li class="first">This is #7</li>
+      <li class="first">This is #8</li>
+      <li class="first">This is #9</li>
+    </ul>
+
+    <ul>
+      <li class="second">This is #1</li>
+      <li class="second">This is #2</li>
+      <li class="secondt">This is #3</li>
+      <li class="second">This is #4</li>
+      <li class="second">This is #5</li>
+      <li class="second">This is #6</li>
+      <li class="second">This is #7</li>
+      <li class="secondt">This is #8</li>
+      <li class="second">This is #9</li>
+    </ul>
+  </body>
+</html>

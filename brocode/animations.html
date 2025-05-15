@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <style>
+      body{
+        background-color: black;
+      }
+      #box{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(247, 73, 73);
+        font-size: 13em;
+        text-align: center;
+        animation-name: slideleft;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-play-state: running; /*pause buat stop*/
+        animation-timing-function: ease-in-out; /*default
+                                   linear: buat speed yg sama
+                                   steps(): buat langkah
+                                   animasi jg bisa di img
+
+      @keyframes slideleft{
+        from{transform: translateX(400%);}
+      }
+      @keyframes slideright{
+        to{transform: translateX(100%);}
+      }
+      @keyframes slideup{
+        from{transform: translateY(100%);}
+      }
+      @keyframes slidedown{
+        to{transform: translateY(100%);}
+      }
+      @keyframes rotate{
+        50%{transform: rotateZ(360deg);} /*kalo 100% full rotate
+                                          kalo 50% rotate nya dua kali
+                                          rotate sekali, trs undo*/
+      }
+      @keyframes grow{
+        50%{transform: scale(2,2);}
+      }
+      @keyframes shrink{
+        50%{transform: scale(0.5, 0.5);}
+      }
+      @keyframes fade{
+        50%{opacity: 0.5;}
+      }
+      @keyframes colorchange{
+        0%{background-color: rgb(247, 73, 73);}
+        20%{background-color: lightsalmon;}
+        40%{background-color: lightblue;}
+        60%{background-color: lightpink;}
+        80%{background-color: lightcoral;}
+        100%{background-color: lightyellow;}
+      }
+      @keyframes glow{
+        50%{box-shadow: 0px 0px 50px yellow;}
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="box">Hi</div>
+  </body>
+</html>

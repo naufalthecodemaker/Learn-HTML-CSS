@@ -1,0 +1,80 @@
+<!---Hovers, Transitions, Shadows-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> My Website </title>
+  </head>
+
+  <style>
+    .subscribe-button {
+      background-color: rgba(163, 4, 4, 0.872);
+      color: white;
+      border: none;
+      height: 36px;
+      width: 105px;
+      border-radius: 3px;
+      cursor: pointer;
+      margin-right: 8px;
+      transition: opacity 0.15s;
+    }
+    
+    .subscribe-button:hover {
+      opacity: 0.7;
+    }
+
+    .subscribe-button:active {
+      opacity: 0.4;
+    }
+
+    .join-button {
+      background-color: white;
+      color:rgb(9, 140, 247);
+      border-color: rgb(9, 140, 247);
+      border-style: solid;
+      border-width: 1.5px;
+      height: 36px;
+      width: 65px;
+      border-radius: 3px;
+      cursor:pointer;
+      margin-right: 8px;
+      transition: background-color 0.15s, color 0.15s;
+    }
+
+    .join-button:hover {
+      background-color: rgb(9,140,247); 
+      color: white;
+    }
+
+    .join-button:active {
+      opacity: 0.7;
+    }
+
+    .tweet-button {
+      background-color: rgb(46, 158, 250);
+      color:aliceblue;
+      border: none;
+      border-radius: 20px;
+      height: 36px;
+      width: 80px;
+      font-weight: bold;
+      font-size: 15px;
+      cursor: pointer;
+      transition: box-shadow 0.15s;
+    } 
+
+    .tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);    
+    }
+
+    .tweet-button:active {
+      opacity: 0.7;
+    }
+  </style>
+
+  <body>
+    <h1>Learn About Modify Button with CSS</h1>
+    <button class="subscribe-button">SUBSCRIBE</button>
+    <button class="join-button">JOIN</button>
+    <button class="tweet-button">TWEET</button>
+  </body>
+</html>

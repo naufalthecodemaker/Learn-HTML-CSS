@@ -1,0 +1,61 @@
+.ride-request {
+  font-family: Arial;
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+input {
+  display: block;
+  font-size: 11px;
+  width: 260px;
+  padding-left: 14px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgb(243, 241, 241);
+  border: none;
+}
+
+.pickup {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+button {
+  margin-top: 25px;
+  font-size: 11px;
+  border: none;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  cursor: pointer;
+  transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.now-button {
+  background-color: black;
+  color: white;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.later-button {
+  width: 120px;
+  background-color: rgb(235, 234, 234);
+}
+
+.now-button:hover {
+  opacity: 0.7;
+}
+.now-button:active {
+  background-color: white;
+  color: black;
+}
+
+.later-button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.later-button:active {
+  opacity: 0.5;
+}

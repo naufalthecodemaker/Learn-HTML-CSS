@@ -1,0 +1,77 @@
+p {
+  font-family: Arial;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.all-segment {
+  display: flex; 
+}
+
+.profile-segment {
+  margin-right: 10px;
+}
+
+.profile-picture {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.tweet-segment {
+  width: 350px;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.author-part {
+  margin-right: 8px;
+}
+
+.author {
+  font-weight: 700;
+}
+
+.account {
+  color: rgb(74, 74, 74);
+}
+
+.middle-section {
+  margin-bottom: 10px;
+}
+
+.bottom-section {
+  display: flex;
+  border-color: gray;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 16px;
+  width: 305px;
+  height: 76px;
+}
+
+.gray-background {
+  width: 150px;
+  background-color: rgb(207, 206, 206);
+  border-top-left-radius: 16px;
+  border-bottom-left-radius: 16px;
+}
+
+.youtube-part {
+  padding: 10px;
+}
+
+.yt-link {
+  color: rgb(57, 56, 56);
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+
+.yt-title {
+  font-weight: 540;
+}

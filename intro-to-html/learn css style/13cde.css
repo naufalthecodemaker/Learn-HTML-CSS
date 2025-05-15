@@ -1,0 +1,79 @@
+.body {
+  height: 400px;
+}
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gmail {
+  margin-left: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.489);
+  width: 370px;
+  padding: 10px;
+}
+.header-section {
+  width: 400px;
+}
+
+.header {
+  color: gray;
+  font-size: 15px;
+
+}
+
+.content {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  
+}
+
+.profile {
+  width: 50px;
+  margin-right: 8px;
+}
+
+.profile-picture {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.details {
+  width: 310px;
+}
+
+.sender {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.account {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.time-section {
+  color: gray;
+  font-size: 14px;
+}
+
+.title-section {
+  margin-bottom: 6px;
+  margin-top: 6px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.message {
+  color: gray;
+  font-size: 14px;
+}

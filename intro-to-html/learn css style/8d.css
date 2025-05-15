@@ -1,0 +1,57 @@
+.first {
+  margin-top: 5px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.08px;
+}
+
+.last {
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.08px;
+}
+
+.email {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 198px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: gray;
+  border-width: 0.08px;
+}
+
+.sign-up {
+  background-color: rgb(0, 119, 255);
+  color: white;
+  border: solid;
+  border-radius: 12px;
+  font-size: 15px;
+  width: 390px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+}
+
+.sign-up:hover {
+  opacity: 0.7;
+}
+
+.sign-up:active {
+  opacity: 0.4;
+}

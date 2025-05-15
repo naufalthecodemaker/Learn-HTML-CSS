@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exer 14f</title>
+    <style>
+      p {
+        color: white;
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      .left-side {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left:0;
+        bottom: 0;
+        width: 200px;
+        background-color: rgb(68, 67, 67);
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(45, 45, 45);
+        width: 60px;
+        align-items: center;
+        padding-top: 15px;
+      }
+
+      .photos {
+        height: 40px;
+        width: 40px;
+        border-radius: 25px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+
+      .info {
+        margin-left: 20px;
+        padding-top: 15px;
+      }
+
+      .info-top {
+        display: flex;
+        align-items: center;
+      }
+
+      .title {
+        font-size: 12px;
+        font-weight: 600;
+      }
+
+      .add-icon {
+        color: gray;
+        margin-left: 60px;
+        font-size: 25px;
+      }
+
+      .hastag {
+        color: rgb(143, 143, 143);
+        font-size: 13px;
+        margin-top: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body style="height: 1000px;">
+    <div class="left-side">
+      <div class="profile">
+        <img class="photos" src="profil 1.webp">
+        <img class="photos" src="profil 2.jpg">
+        <img class="photos" src="kucing.png">
+      </div>
+
+      <div class="info">
+        <div class="info-top">
+          <p class="title">INFO</p>
+          <p class="add-icon">&#43;</p>
+        </div>
+
+        <div class="info-bottom">
+          <p class="hastag"># new-videos</p>
+          <p class="hastag"># updates</p>
+          <p class="hastag"># faq</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

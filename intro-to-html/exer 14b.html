@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exer 14b</title>
+    <style>
+      .overlay {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.08);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+      }
+
+      .modal {
+        background-color: white;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+      }
+
+        .title {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .content {
+    font-family: Arial;
+    margin-bottom: 12px;
+  }
+    </style>
+  </head>
+
+  <body style="height: 3000px;">
+    <div style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        top:0;
+        right: 0;
+        bottom: 0;
+        width: 100px;
+        ">
+        right sidebar
+    </div>
+
+    <div class="overlay">
+      <div class="modal">
+        <p class="title">Modal Title</p>
+        <p class="content">This is a modal</p>
+        <button>Close</button>
+      </div>
+    </div>
+      
+  </body>
+</html>

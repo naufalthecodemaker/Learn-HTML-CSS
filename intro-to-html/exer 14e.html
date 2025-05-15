@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exer 14e</title>
+    <style>
+      .body {
+        height: 3000px;;
+      }
+      .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex; 
+        justify-content: space-between;
+        background-color:white;
+      }
+
+      .left-section {
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+      }
+
+
+      .profile-picture {
+        width: 30px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+
+      .username {
+        font-family: Arial;
+        font-size: 14px;
+        font-weight: 600;
+      }
+
+      .right-section {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+      }
+
+      .add-friend-button {
+        margin-right: 6px;
+        background-color: rgb(3, 104, 244);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 600;
+        font-family: Arial;
+        font-size: 12px;
+        cursor: pointer;
+        transition: opacity 0.15s, background-color 0.15s, color 0.15s;
+      }
+
+      .add-friend-button:hover {
+        opacity: 0.7;
+      }
+
+      .add-friend-button:active {
+        background-color: white;
+        color: rgb(3, 104, 244);
+      }
+
+      .message-button {
+        background-color: rgb(220, 220, 220);
+        font-weight: 600;
+        font-family: Arial;
+        font-size: 12px;
+        border: none;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .message-button:hover {
+        opacity: 0.7;
+      }
+
+      .message-button:active {
+        background-color: white;
+        color: rgb(3, 104, 244);
+      }
+    </style>
+  </head>
+
+  <body class="body">
+    <div class="header">
+      <div class="left-section">
+        <div>
+          <img class="profile-picture" src="profil 1.webp">
+        </div>
+        <div>
+          <p class="username">Oliver Cat</p>
+        </div>
+      </div>
+
+      <div class="right-section">
+        <div class="add-friend">
+          <button class="add-friend-button">Add Friend</button>
+        </div>
+
+        <div class="message">
+          <button class="message-button">Message</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

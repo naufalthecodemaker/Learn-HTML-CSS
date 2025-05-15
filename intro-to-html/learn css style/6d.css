@@ -1,0 +1,26 @@
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.type {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.order {
+  margin-top: 10px;
+}
+
+.method {
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+
+.method:hover {
+  text-decoration: underline;
+}

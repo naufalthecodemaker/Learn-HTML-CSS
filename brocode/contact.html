@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+  </head>
+  <body>
+    <style>
+      .header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: lightcyan;
+        display: flex;
+        justify-content: center;
+        z-index: 100;
+      }
+      
+      .nav-bar{
+        background-color: bisque;
+        position: fixed;
+        top: 79px;
+        left: 0;
+        right: 0;
+        display: flex;
+        z-index: 100;
+      }
+
+      .nav-bar p{
+        text-align: center;
+      }
+
+      .nav-bar a{
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+      }
+
+      .home{
+        background-color: lightpink;
+        flex:1;
+      }
+
+      .home:hover{
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .about{
+        background-color: lightgreen;
+        flex: 1;
+      }
+
+      .about:hover{
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .product{
+        background-color: lightgray;
+        flex: 1;
+      }
+
+      .product:hover{
+        opacity: 0.7;
+        cursor: pointer;
+      }
+
+      .contact{
+        background-color: lightskyblue;
+        flex: 1;
+      }
+
+      .contact:hover{
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      
+      .content{
+        position: absolute;
+        top: 140px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>Naufal's Website</h1>
+    </div>
+
+    <div class="nav-bar">
+      <div class="home">
+        <p><a href="navigation_bar.html">Home</a></p>
+      </div>
+
+      <div class="about">
+        <p><a href="about.html">About</a></p>
+      </div>
+
+      <div class="product">
+        <p><a href="products.html">Products</a></p>
+      </div>
+
+      <div class="contact">
+        <p><a href="contact.html">Contact</a></p>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>This is the Contact page</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur provident vitae non, cumque, esse quos officia architecto illo numquam, omnis a. Recusandae quos asperiores quam fugit, odit culpa dicta!</p>
+    </div>
+  </body>
+</html>

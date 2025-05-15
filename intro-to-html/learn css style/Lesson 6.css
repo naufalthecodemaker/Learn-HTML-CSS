@@ -1,0 +1,33 @@
+p {
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.account {
+  font-weight: bold;
+}
+
+.username {
+  color: gray;
+  cursor: pointer;
+}
+
+.username:active {
+  color:black;
+}
+
+.content {
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.tag-account {
+  color: rgb(0, 157, 255);
+  cursor: pointer;
+}
+
+.tag-account:active {
+  color: black;
+}

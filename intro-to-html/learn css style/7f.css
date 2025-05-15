@@ -1,0 +1,47 @@
+p {
+  font-family: Arial;
+  font-size: 12px;
+  color: rgb(103, 102, 102);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email {
+  margin-bottom: 5px;
+}
+
+.email-bar {
+  width: 291px;
+  height: 18px;
+  margin-bottom: 15px;
+  border-width: 1.4px;
+  border-style: solid;
+  border-radius:3px;
+}
+
+.agreement {
+  margin-bottom: 15px;
+}
+
+.join-button {
+  background-color: rgb(10,102,194);
+  color: white;
+  font-size: 14px;
+  border-style: solid;
+  border-color: rgb(10,102,194);
+  border-radius: 20px;
+  padding-left: 109px;
+  padding-right: 109px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.join-button:hover {
+  opacity: 0.7;
+}
+
+.join-button:active {
+  opacity: 0.4;
+}

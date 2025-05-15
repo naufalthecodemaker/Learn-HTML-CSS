@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Layout</title>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+
+      body{
+        margin: 0;
+      }
+
+      header{
+        background-color: lightblue;
+        text-align: center;
+        padding: 25px;
+      }
+
+      nav{
+        background-color: lightcyan;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50px;
+      }
+
+      aside{
+        background-color: lightyellow;
+        width: 20%;
+        float: left;
+        padding: 10px;
+      }
+
+      section{
+        background-color: lightgrey;
+        width: 40%;
+        float: left;
+        padding: 10px;
+      }
+
+      article{
+        background-color: lightgreen;
+        width: 40%;
+        float: left;
+        padding: 10px;
+      }
+
+      footer{
+        background-color: rgb(250, 173, 142);
+        text-align: center;
+        padding: 25px;
+        display: block;
+        clear: both;
+      }
+      @media screen and (max-width: 600px){
+        aside, section, article{
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <!--Common Website Layout
+    <header> = opening content
+    <nav> = navigation bar, links
+    <main> = main content (section, aside, article, div)
+    <section> = group of related content (dependent content)
+    <aside> = side content
+    <article> = independent content
+    <footer> = closing content
+  -->
+  
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+
+    <nav>
+      <div id="home">Home</div>
+      <div id="profile">Profile</div>
+      <div id="skills">Skills</div>
+      <div id="achievement">Achievement</div>
+      <div id="contact">Contact</div>
+    </nav>
+
+    <main>
+      <aside>
+        <h2>This is aside</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quis voluptates molestiae blanditiis eaque architecto aspernatur asperiores quibusdam obcaecati minima saepe ipsa ex veniam, facilis commodi? Consequatur nesciunt odit hic?</p>
+      </aside>
+
+      <section>
+        <h2>This is section</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit sunt expedita beatae saepe dolore nihil, iusto enim quasi blanditiis labore, harum possimus autem eligendi aliquam explicabo, fuga architecto dolorem repellat!</p>
+      </section>
+
+      <article>
+        <h2>This is article</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid quaerat voluptatem quasi doloremque aliquam voluptates maiores, laborum nobis architecto quia veritatis quos impedit enim, hic dolorum repellendus nisi illum perspiciatis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolorem repellendus enim repudiandae aspernatur soluta necessitatibus accusantium veniam? Modi voluptate odio, quod culpa ducimus laborum sit nostrum accusantium qui illum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius praesentium corporis exercitationem est deserunt ab, quo autem. Facere dolore distinctio id quas, soluta eaque blanditiis, ullam voluptatem quaerat incidunt ipsa?</p>
+      </article>
+    </main>
+
+    <footer>
+      <h2>Footer</h2>
+    </footer>
+  </body>
+</html>
